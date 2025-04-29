@@ -1,5 +1,6 @@
 import Calendar, { CalendarProps } from './Calendar';
+import ConfigProvider, { ConfigProviderProps } from './ConfigProvider';
 
-export { Calendar };
+export { Calendar, ConfigProvider };
 
-export type { CalendarProps };
+export type { CalendarProps, ConfigProviderProps };
